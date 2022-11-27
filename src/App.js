@@ -6,6 +6,7 @@ import MainLayout from "./components/layouts/MainLayout";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Home from "./pages/Home";
+import TimeLine from "./pages/TimeLine";
 
 function App() {
   
@@ -27,6 +28,10 @@ function App() {
         {
           path: "/faq",
           element: <FAQ/>
+        },
+        {
+          path: "/timeline",
+          element: <TimeLine/>
         }
       ]
     },
@@ -39,7 +44,7 @@ function App() {
   ])
 
   return (
-    <div className="bg-gradient-to-b from-primary to-secondary w-screen h-screen">
+    <div className="h-screen w-screen">
         <RouterProvider router={router}/>
     </div>
   );
