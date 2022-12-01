@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         primary: '#100F1A',
         secondary: '#140F1A',
+        darkpurple: '#1A0554',
+        lightpurple: '#664EAE',
       },
       content : {
         'bg-vector-left': "url('images/vectorLeft.svg')",
