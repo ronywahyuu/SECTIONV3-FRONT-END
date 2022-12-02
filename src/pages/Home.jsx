@@ -5,13 +5,13 @@ import HeroImage from "../images/hero-image.png";
 const Home = () => {
   return (
     <>
-      <div className="before:content-bg-vector-left left-10 top-0 bottom-0 absolute lg:flex hidden "></div>
+      <div className="before:content-bg-vector-left left-10 top-0 bottom-0 absolute lg:flex hidden animate-fade-in-left "></div>
       {/* <div class="bg-left-vector left-10 top-0 bottom-0 absolute lg:flex hidden "></div> */}
 
 
-      <div className="">
+      <div className="animate-fade-in-down  md:h-full min-h-screen ">
         {/* wrapper */}
-        <div className="flex flex-col items-center justify-center lg:px-40 px-10  mx-auto  gap-3  mt-24  md:w-8/12 ">
+        <div className="flex flex-col items-center justify-center lg:px-40 md:px-20 px-10  mx-auto  gap-3  pt-24 md:w-8/12">
           <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-white  text-center  ">
             Become a Reliable Web Developer in Era 5.0
           </h1>
@@ -62,7 +62,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="after:content-bg-vector-right right-10 top-0 bottom-0  absolute lg:flex hidden  "></div>
+      <div className="after:content-bg-vector-right right-10 top-0 bottom-0  absolute lg:flex hidden animate-fade-in-right "></div>
       {/* <div className="bg-right-vector  bg-no-repeat  bg-right-top h-screen right-10 top-0 bottom-0  absolute lg:flex border hidden z-[2] w-2/12"></div> */}
 
     </>

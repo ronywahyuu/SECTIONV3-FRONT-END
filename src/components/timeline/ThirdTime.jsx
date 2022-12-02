@@ -1,6 +1,6 @@
 const ThirdTime = () => {
   return (
-    <div className={`flex flex-col `}>
+    <div className={`md:flex hidden flex-col animate-fade-in-right `}>
       <div className="flex flex-col">
         <p className="font-bold">Section Talks #3</p>
         <h1 className="text-4xl fonet-bold">Building a Sustainable Fintech Startup</h1>

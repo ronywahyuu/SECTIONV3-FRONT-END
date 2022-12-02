@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex md:px-40 px-10 py-5 justify-between items-center bg-primary  md:w-screen ">
+    <nav className="flex md:px-40 px-10 py-5 justify-between items-center bg-primary  lg:w-screen animate-fade-in-down  ">
       {/* logo */}
       <div className=" ">
         <img src={Logo} alt="logo" />

@@ -5,10 +5,10 @@ import SocialMedia from "../SocialMedia";
 
 const MainLayout = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-secondary ">
+    <div className=" text-white ">
       <Navbar />
-      <div className="text-white h-screen">
-        <SocialMedia/>
+      <div className="text-white  bg-gradient-to-b from-primary to-secondary min-h-screen">
+        <SocialMedia />
         <Outlet />
       </div>
     </div>
