@@ -44,10 +44,15 @@ const Home = () => {
           </div>
 
           {/* CTA */}
+          
           <div className="flex justify-center flex-col md:flex-row items-center w-full gap-3 my-5">
+            <Link
+            to="/Register">
             <button className="bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 text-white rounded-lg drop-shadow-[0_1px_10px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500">
               Daftar Peserta
             </button>
+            </Link>
+          
             <Link
               to="/timeline"
               className=" border border-[#5334B1] shadow-lg px-5 py-3 hover:drop-shadow-[0_35px_35px_#ffffff3f] rounded-lg transition duration-500"
