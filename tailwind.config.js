@@ -5,11 +5,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        montserrat: "'Montserrat', sans-serif;"
+      },
       colors: {
         primary: '#100F1A',
         secondary: '#140F1A',
         darkpurple: '#1A0554',
         lightpurple: '#664EAE',
+        bgRegisTL: 'rgba(76,75,82,1)',
+        bgRegisBR: 'rgba(22,18,29,1)'
       },
       content: {
         'bg-vector-left': "url('images/vectorLeft.svg')",
@@ -21,6 +26,7 @@ module.exports = {
       },
       backgroundColor: {
         'main': 'background: linear-gradient(133.39deg, #100F1A -18.47%, #140F1A 111.16%)',
+        // 'bgRegister': 'background: linear-gradient(135deg, rgba(76,75,82,1) 0%, rgba(22,18,29,1) 100%)',
         'gradient-first': '#100F1A',
         'gradient-second': '#140F1A'
       },
