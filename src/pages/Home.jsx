@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CountdownTimer from "../components/countdown/CountdownTimer";
 import HeroImage from "../images/hero-image.png";
 
 const Home = () => {
@@ -21,33 +22,18 @@ const Home = () => {
             Kembangkan dirimu dengan bergabung bersama kami!
           </p>
 
-          <div className="flex flex-col justify-center items-center w-full">
-            <p>Hitung mundur sebelum penutupan pendaftaran</p>
-            <div className="flex justify-between  w-full">
-              <div className="flex flex-col items-center justify-center  rounded-lg w-24 h-24">
-                <p className="md:text-7xl text-4xl font-bold">00</p>
-                <p className="text-base">Hari</p>
-              </div>
-              <div className="flex flex-col items-center justify-center  rounded-lg w-24 h-24">
-                <p className="md:text-7xl text-4xl font-bold">00</p>
-                <p className="text-base">Jam</p>
-              </div>
-              <div className="flex flex-col items-center justify-center  rounded-lg w-24 h-24">
-                <p className="md:text-7xl text-4xl font-bold">00</p>
-                <p className="text-base">Menit</p>
-              </div>
-              <div className="flex flex-col items-center justify-center  rounded-lg w-24 h-24">
-                <p className="md:text-7xl text-4xl font-bold">00</p>
-                <p className="text-base">Detik</p>
-              </div>
-            </div>
-          </div>
-
+          {/* Countdown */}
+          <CountdownTimer/>
           {/* CTA */}
+          
           <div className="flex justify-center flex-col md:flex-row items-center w-full gap-3 my-5">
+            <Link
+            to="/Register">
             <button className="bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 text-white rounded-lg drop-shadow-[0_1px_10px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500">
               Daftar Peserta
             </button>
+            </Link>
+          
             <Link
               to="/timeline"
               className=" border border-[#5334B1] shadow-lg px-5 py-3 hover:drop-shadow-[0_35px_35px_#ffffff3f] rounded-lg transition duration-500"

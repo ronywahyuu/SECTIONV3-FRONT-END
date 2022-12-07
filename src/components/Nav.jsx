@@ -76,7 +76,10 @@ const Nav = () => {
 
                 <div className="lg:hidden flex  justify-center w-full  items-center  ">
                   <Link to="/register" className="mt-10 w-full">
-                    <button className="bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center">
+                    <button
+                      onClick={() => setOffCanvas(false)}
+                      className="bg-gradient-to-r from-[#5334B1] to-[#401881] px-5 py-3 md:flex  text-white rounded-lg drop-shadow-[0_5px_15px_#ffffff3f] hover:drop-shadow-[0_35px_35px_#ffffff3f] transition duration-500 w-full justify-center"
+                    >
                       Daftar Peserta
                     </button>
                   </Link>

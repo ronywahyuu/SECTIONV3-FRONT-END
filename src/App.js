@@ -7,6 +7,7 @@ import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Home from "./pages/Home";
 import TimeLine from "./pages/TimeLine";
+import Register from "./pages/Register";
 
 function App() {
   
@@ -32,6 +33,10 @@ function App() {
         {
           path: "/timeline",
           element: <TimeLine/>
+        },
+        {
+          path: "/register",
+          element: <Register/>
         }
       ]
     },
