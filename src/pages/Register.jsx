@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Form from "../components/Form";
 
 const Register = () => {
     return (
-        <div>
+        <div className="animate-fade-in-down">
             <h1 className="text-center p-5 text-[40px] font-montserrat font-bold">Satu langkah lagi</h1>
             <h2 className="text-center text-[23px] font-montserrat">Daftarkan dirimu dengan mengisi formulir di bawah </h2>
             <h2 className="text-center pb-5 text-[23px] font-montserrat">Kerahasiaan datamu akan terjamin </h2>
